@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính điểm trung bình 3 môn</title>
+</head>
+<body>
+    <script>
+         inputToan = prompt(' Nhập điểm toán của bạn');
+         inputLy = prompt(' Nhập điểm lý của bạn');
+         inputHoa = prompt(' Nhập điểm hóa của bạn');
+        let Toan= parseInt(inputToan);
+        let Ly = parseInt(inputLy);
+        let Hoa= parseInt(inputHoa);
+        let diemtong = (Toan + Ly + Hoa);
+        let diemTB=diemtong/3;
+        alert('điểm tổng của em là ' + diemtong)
+        alert('điểm trung bình của em là'+ diemTB)
+        document.write("Điểm tổng 3 môn của em là"+ diemtong) 
+        document.write("Điểm trung bình 3 môn của em là" +diemTB)
+    </script>
+</body>
+</html>
